@@ -1,0 +1,12 @@
+.header-scrolled{
+    position: relative;
+    transition: 1s;
+    width: 100%;
+    float: left;
+}
+
+.nav-custom{
+    position: fixed;
+    float: left;
+    width: 100%;
+}

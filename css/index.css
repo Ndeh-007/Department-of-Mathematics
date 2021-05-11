@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero {
+  height: 20rem;
+  background-image: url("../images/pic1.jfif");
+  background-position: bottom;
+}
+
+.n-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+.central-row {
+  padding: 40px;
+}
+
+ul.listItems > li {
+  list-style-type: none;
+}
+
+.sub-title-container {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.sub-title {
+  color: #343a40;
+}
+.sideItem {
+  margin-top: 20px;
+}
+
+.main-item {
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #031024 !important;
+}
+
+.listItems {
+  font-size: 18px;
+  padding: 5px 0px 0px 20px;
+  margin-bottom: 0px;
+}
+
+.img-holder {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-holder > img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.header-info {
+  padding: 10px 10px;
+}
+
+.header-text {
+  color: #212529;
+  text-transform: capitalize;
+  padding: 0px 20px;
+}
+
+.header-text > h6 {
+  color: #212529;
+  text-transform: capitalize;
+}
+
+.site-name {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  text-shadow: 0px 0px 2px pink;
+}
+
+.dashboard-link-container {
+  background: url("../images/malaria2.jfif");
+  height: 150px;
+  width: 80%;
+  /* border: 1px solid #343a40; */
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 5px #1a120f; */
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dl-fill {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #a6abbe00;
+}
+
+.dl-info {
+  padding-top: 35px;
+  color: #212529;
+  font-weight: bolder;
+  /* text-shadow: 0px 0px 3px #fff; */
+}
+
+.dl-square {
+  height: max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: -40px;
+}
+
+.dl-square > button {
+  margin: 50% auto;
+}
+
+p {
+  font-weight: 400;
+}
+
+footer {
+  font-weight: bolder;
+}
+
+/* online footer */
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+footer .form-control {
+  color: white !important;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h6 {
+  color: white;
+}
+
+.first-letter{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  div.about {
+    display: block !important;
+  }
+}
