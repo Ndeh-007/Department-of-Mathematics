@@ -5,6 +5,18 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+/* footer{
+  margin-top: 5% !important;
+} */
+
+main{
+  flex-shrink: 0 !important;
 }
 
 .hero {
@@ -179,8 +191,39 @@ h6 {
   font-size: 30px;
 }
 
+a.nav-link.text-muted:hover{
+  color: var(--bs-warning) !important;
+  /* color: #ffc371 !important;   */
+  text-decoration: underline !important;
+  transition: 0.25s;
+  font-weight: 500;
+}
+
+.col-lg-2 ul a:hover {
+  /* color: #ffc371 !important; */
+  color: var(--bs-warning) !important;
+}
+
+.holder{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  object-fit: contain;
+}
+.holder>img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 900px) {
   div.about {
     display: block !important;
+  }
+  .news-card{
+    width: 100% !important;
+    /* flex-wrap: nowrap; */
+    display: unset;
   }
 }

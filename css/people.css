@@ -1,0 +1,9 @@
+.people-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-card{
+    width: 18rem;
+    margin: 10px;
+}
